@@ -1,0 +1,17 @@
+
+]	java:S125	"<This block of commented-out lines of code should be removed.(İÍîúÿÿÿÿ8ûÀÄÄá1
+]	java:S125"<This block of commented-out lines of code should be removed.(‚ÜÌ„şÿÿÿÿ8üÀÄÄá1
+_
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄŞ8üÀÄÄá1
+_
+java:S6813'"BRemove this field injection and use constructor injection instead.(êæÄŞ8üÀÄÄá1
+
+java:S3305%"]Inject this field value directly into "authenticationProvider", the only method that uses it.(ñÊ®¤ùÿÿÿÿ8ıÀÄÄá1
+o
+java:S3305("RInject this field value directly into "filterChain", the only method that uses it.(†€Ú³8ıÀÄÄá1
+]	java:S125"<This block of commented-out lines of code should be removed.(ì–Ùúÿÿÿÿ8şÀÄÄá1
+]	java:S1250"<This block of commented-out lines of code should be removed.(­¼èÿÿÿÿÿ8€ÁÄÄá1
+]	java:S125@"<This block of commented-out lines of code should be removed.(ı£ËÚùÿÿÿÿ8‚ÁÄÄá1
+]	java:S125O"<This block of commented-out lines of code should be removed.(¸¢˜Ïøÿÿÿÿ8„ÁÄÄá1
+m
+java:S1612j"KReplace this lambda with method reference 'FrameOptionsConfig::sameOrigin'.(ì×ñÉüÿÿÿÿ8‡ÁÄÄá1

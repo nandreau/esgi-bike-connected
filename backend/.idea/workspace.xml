@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31c6c4a7-56c0-4984-b9bc-7b9347537c7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/payload/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/security/WebSecurityConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-boot-security-login" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2dM7PEPM75jfkZetBNYDRgX5a0f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpringBootSecurityLoginApplication.executor": "Run",
+    "Maven.spring-boot-security-login [install].executor": "Run",
+    "Maven.spring-boot-security-postgresql [clean].executor": "Run",
+    "Maven.spring-boot-security-postgresql [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.8-graalvm-ce-17-249ae16d76d6-8d0cec8a" />
+        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-98297cd8" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31c6c4a7-56c0-4984-b9bc-7b9347537c7d" name="Changes" comment="" />
+      <created>1709806069558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709806069558</updated>
+    </task>
+    <servers />
+  </component>
+</project>
