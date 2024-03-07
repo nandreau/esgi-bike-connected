@@ -1,0 +1,10 @@
+<div class="container">
+  <header class="jumbotron">
+    <h3>Basic Video Player</h3>
+    <vg-player (onPlayerReady)="onPlayerReady($event)">
+        <video [vgMedia]="$any(media)" #media id="singleVideo" preload="auto" controls>
+            <source src="../../assets/montee_velo.mp4" type="video/mp4">
+        </video>
+    </vg-player>
+  </header>
+</div>
