@@ -1,23 +1,23 @@
 
 E
-java:S5411S"(Use a primitive boolean expression here.(‡Ö…²8ñ¨‚Åá1
+java:S5411S"(Use a primitive boolean expression here.(‡Ö…²8»ûÅá1
 E
-java:S5411W"(Use a primitive boolean expression here.(Œ‰ÓŒ8ò¨‚Åá1
+java:S5411W"(Use a primitive boolean expression here.(Œ‰ÓŒ8»ûÅá1
 _
-java:S6813+"BRemove this field injection and use constructor injection instead.(êæÄŞ8ˆ©‚Åá1
+java:S6813+"BRemove this field injection and use constructor injection instead.(êæÄŞ8¥»ûÅá1
 _
-java:S6813."BRemove this field injection and use constructor injection instead.(êæÄŞ8ˆ©‚Åá1
+java:S6813."BRemove this field injection and use constructor injection instead.(êæÄŞ8¦»ûÅá1
 _
-java:S68131"BRemove this field injection and use constructor injection instead.(êæÄŞ8ˆ©‚Åá1
+java:S68131"BRemove this field injection and use constructor injection instead.(êæÄŞ8§»ûÅá1
 _
-java:S68134"BRemove this field injection and use constructor injection instead.(êæÄŞ8ˆ©‚Åá1
+java:S68134"BRemove this field injection and use constructor injection instead.(êæÄŞ8©»ûÅá1
 _
-java:S68137"BRemove this field injection and use constructor injection instead.(êæÄŞ8ˆ©‚Åá1
+java:S68137"BRemove this field injection and use constructor injection instead.(êæÄŞ8ª»ûÅá1
 C
-java:S1452;"&Remove usage of generic wildcard type.(—­è€8‹©‚Åá1
+java:S1452;"&Remove usage of generic wildcard type.(—­è€8°»ûÅá1
 o
-java:S6204H"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8©‚Åá1
+java:S6204H"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8´»ûÅá1
 H
-java:S1452R"&Remove usage of generic wildcard type.(éã°éúÿÿÿÿ8‘©‚Åá1
+java:S1452R"&Remove usage of generic wildcard type.(éã°éúÿÿÿÿ8·»ûÅá1
 H
-java:S1452m"&Remove usage of generic wildcard type.(±Æ®—úÿÿÿÿ8—©‚Åá1
+java:S1452m"&Remove usage of generic wildcard type.(±Æ®—úÿÿÿÿ8¼»ûÅá1

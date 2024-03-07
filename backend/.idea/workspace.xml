@@ -5,16 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c6c4a7-56c0-4984-b9bc-7b9347537c7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/payload/request/SignupRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-security-login/src/main/java/com/bezkoder/spring/security/login/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/513c253afdb181447d56132411dfd686b11679a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aeed21d02a7d9fac4b77822932102978a97d6408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/1/513c253afdb181447d56132411dfd686b11679a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/e/aeed21d02a7d9fac4b77822932102978a97d6408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07f7619c5d763f1ae957a3a736628ae634fdbb7a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07f7619c5d763f1ae957a3a736628ae634fdbb7a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db5d73e2d55ee32fe90717c3861633ac339b3aa9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db5d73e2d55ee32fe90717c3861633ac339b3aa9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdb.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/testdb.trace.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-boot-security-login" />
@@ -39,8 +53,10 @@
     "Maven.spring-boot-security-postgresql [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "<unknown>",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SharedIndexes">
