@@ -1,13 +1,9 @@
 package com.bezkoder.spring.security.login;
-
-
-import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.*;
 import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-import com.bezkoder.spring.security.login.payload.request.VideoRequest;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +17,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class VideoControllerTest {
+public class TestControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
@@ -38,26 +34,15 @@ public class VideoControllerTest {
 
     @Test
     @WithMockUser(username="testuser", roles={"USER"}) // Simulate authenticated user
-    public void testPostSpeed() throws Exception {
-        float expectedSpeed = 10.0f;
-        VideoRequest videoRequest = new VideoRequest();
-        videoRequest.setSpeed(20);
-
-        mockMvc.perform(post("/api/video/speed")
-                        .with(csrf()) // Include CSRF token if CSRF protection is enabled
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .content(asJsonString(videoRequest)))
+    public void testUserAccess_WithUser() throws Exception {
+        mockMvc.perform(get("/api/test/user"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.message").value(expectedSpeed));
+                .andExpect(content().string("User Content."));
     }
 
-    // Utility method to convert object to JSON string
-    private String asJsonString(final Object obj) {
-        try {
-            return new ObjectMapper().writeValueAsString(obj);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+    @Test
+    public void testUserAccess_WithoutUser() throws Exception {
+        mockMvc.perform(get("/api/test/user"))
+                .andExpect(status().isUnauthorized());
     }
 }
